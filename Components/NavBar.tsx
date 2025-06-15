@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 const NavBar = () => {
   return (
     <>
@@ -20,12 +22,9 @@ const NavBar = () => {
           </nav>
 
           <div className="flex-shrink-0">
-            <a
-              href="/signup"
-              className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-473BF0 transition font-bold"
-            >
-              Sign Up
-            </a>
+            <Button className="px-4 py-2 text-bold">
+              Get started for free
+            </Button>
           </div>
         </div>
       </header>
