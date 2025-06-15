@@ -27,7 +27,7 @@ interface FeatureProps {
 
 const Feature = ({ iconPath, title, description }: FeatureProps) => {
   return (
-    <div className="lg:max-w-[290px] max-h-[210px] sm:grid-cols-3 grid-cols-3 lg:mx-10">
+    <div className="md:max-w-[290px] md:max-h-[210px]  md:grid-cols-3 md:mx-10 mb-15">
       <img src={iconPath} />
       <h3 className=" mt-5 text-xl font-bold tracking-tight leading-loose">
         {title}
@@ -39,8 +39,8 @@ const Feature = ({ iconPath, title, description }: FeatureProps) => {
 
 const Features = () => {
   return (
-    <section className="bg-white w-full flex justify-center lg:pt-30">
-      <div className="lg:max-w-[1024] min-h-[210] flex flex-row  ">
+    <section className="bg-white w-full flex justify-center md:pt-30 pt-10">
+      <div className="lg:max-w-[1024px] lg:min-h-[210px] md:flex md:flex-row grid-cols-1">
         {features.map((feature) => (
           <Feature
             iconPath={feature.iconPath}

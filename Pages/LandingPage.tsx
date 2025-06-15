@@ -1,4 +1,5 @@
 import Features from "../Components/LandingPageComponents/Features";
+import GetStarted from "../Components/LandingPageComponents/GetStarted";
 import Hero from "../Components/LandingPageComponents/Hero";
 
 const LandingPage = () => {
@@ -6,6 +7,7 @@ const LandingPage = () => {
     <>
       <Hero />
       <Features />
+      <GetStarted />
     </>
   );
 };
