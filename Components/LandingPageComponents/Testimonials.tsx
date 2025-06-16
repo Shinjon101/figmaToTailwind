@@ -57,6 +57,7 @@ const Testimonials = () => {
       <div className="flex md:flex-row flex-col justify-center gap-40">
         {testimonies.map((testimony) => (
           <TestimonyCard
+            key={testimony.ppPath + testimony.quote}
             ppPath={testimony.ppPath}
             quote={testimony.quote}
             description={testimony.description}

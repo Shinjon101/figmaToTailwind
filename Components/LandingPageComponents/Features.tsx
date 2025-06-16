@@ -43,6 +43,7 @@ const Features = () => {
       <div className="lg:max-w-[1024px] lg:min-h-[210px] md:flex md:flex-row flex-col">
         {features.map((feature) => (
           <Feature
+            key={feature.iconPath + feature.title}
             iconPath={feature.iconPath}
             title={feature.title}
             description={feature.description}

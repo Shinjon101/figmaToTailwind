@@ -3,6 +3,7 @@ import GetStarted from "../Components/LandingPageComponents/GetStarted";
 import Hero from "../Components/LandingPageComponents/Hero";
 import Pricing from "../Components/LandingPageComponents/Pricing";
 import Testimonials from "../Components/LandingPageComponents/Testimonials";
+import FAQ from "../Components/LandingPageComponents/FAQ";
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
       <GetStarted />
       <Testimonials />
       <Pricing />
+      <FAQ />
     </>
   );
 };
