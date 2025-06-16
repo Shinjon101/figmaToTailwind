@@ -14,7 +14,7 @@ const FAQitem = ({ question, answer }: FAQitemProp) => {
         className="flex flex-row items-center gap-4 md:mx-20  cursor-pointer"
       >
         <img
-          className=" size-7 rounded-full "
+          className="size-7 rounded-full"
           src="../../src/assets/icons/qMark.jpg"
         />
         <h1 className="text-white text-xl font-bold leading-loose">

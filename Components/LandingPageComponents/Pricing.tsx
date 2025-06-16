@@ -24,8 +24,11 @@ const plans = [
 
 const Pricing = () => {
   return (
-    <section className="min-w-full bg-gray-900 md:h-[700px] flex flex-col items-center justify-center gap-6 mt-30 overflow-hidden">
-      <div className="w-full max-w-5xl px-4  h-32  flex flex-col items-center justify-between mb-6 mt-20">
+    <section
+      id="pricing"
+      className="min-w-full bg-gray-900  flex flex-col items-center justify-center gap-6 mt-30 scroll-mb-9 overflow-hidden"
+    >
+      <div className="w-full max-w-5xl px-4  h-32  flex flex-col items-center justify-between mb-4 mt-20">
         <h1 className=" mt-5 md:mt-0 text-center justify-start text-white text-4xl font-bold leading-[48px] mb-6">
           Pricing & Plans
         </h1>
