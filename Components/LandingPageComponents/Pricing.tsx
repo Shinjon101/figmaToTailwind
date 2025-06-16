@@ -24,17 +24,17 @@ const plans = [
 
 const Pricing = () => {
   return (
-    <section className="w-screen bg-gray-900 md:h-[850px] flex flex-col items-center justify-center gap-6 mt-30">
-      <div className="md:w-[769px] h-32 my-2 flex flex-col items-center justify-between mb-20">
-        <h1 className="text-center justify-start text-white text-4xl font-bold leading-[48px] mb-6">
+    <section className="min-w-full bg-gray-900 md:h-[900px] flex flex-col items-center justify-center gap-6 mt-30 overflow-hidden">
+      <div className="w-full max-w-5xl px-4  h-32 my-2 flex flex-col items-center justify-between mb-20">
+        <h1 className=" mt-5 md:mt-0 text-center justify-start text-white text-4xl font-bold leading-[48px] mb-6">
           Pricing & Plans
         </h1>
-        <p className="w-[500px] opacity-60 text-center text-white text-lg font-normal leading-loose">
+        <p className="w-full max-w-lg opacity-60 text-center text-white text-lg font-normal leading-loose">
           With lots of unique blocks, you can easily build a page without
           coding. Build your next landing page.
         </p>
       </div>
-      <div className="flex flex-row justify-center gap-10">
+      <div className="flex flex-col md:flex-row justify-center gap-10">
         {plans.map((plan) => (
           <PricingCard
             name={plan.name}

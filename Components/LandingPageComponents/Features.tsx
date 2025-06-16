@@ -39,7 +39,7 @@ const Feature = ({ iconPath, title, description }: FeatureProps) => {
 
 const Features = () => {
   return (
-    <section className="bg-white w-full flex justify-center md:pt-30 pt-10">
+    <section className="bg-white w-full flex justify-center md:pt-30 pt-10 mt-2 pl-4">
       <div className="lg:max-w-[1024px] lg:min-h-[210px] md:flex md:flex-row flex-col">
         {features.map((feature) => (
           <Feature
