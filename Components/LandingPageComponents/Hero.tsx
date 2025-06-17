@@ -1,5 +1,4 @@
 import Button from "../Button";
-
 const Hero = () => {
   return (
     <>
@@ -23,7 +22,7 @@ const Hero = () => {
           </div>
           <div className="lg:min-w-[850px] lg:min-h-[560px]">
             <img
-              src="../../src/assets/HeroImage.jpg"
+              src="../../public/assets/HeroImage.jpg"
               className="shadow-lg lg:mt-30 mt-20 rounded-lg"
             />
           </div>
