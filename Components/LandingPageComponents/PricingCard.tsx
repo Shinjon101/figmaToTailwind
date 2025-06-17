@@ -24,7 +24,9 @@ const PricingCard = ({ name, description, price }: PricingCardProps) => {
         <div className="w-72 text-center justify-start text-gray-900 text-base font-normal leading-7">
           {description}
         </div>
-        <Button className="w-80 h-14 mt-7">Get started for free</Button>
+        <Button to="/signup" className="w-80 h-14 mt-7">
+          Get started for free
+        </Button>
       </div>
     </div>
   );

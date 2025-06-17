@@ -22,7 +22,7 @@ const NavBar = () => {
           </nav>
 
           <div className="flex-shrink-0">
-            <Button className="px-4 py-2 text-bold">
+            <Button to="/signup" className="px-4 py-2 text-bold">
               Get started for free
             </Button>
           </div>

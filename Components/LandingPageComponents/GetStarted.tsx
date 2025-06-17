@@ -13,7 +13,7 @@ const GetStarted = () => {
             coding. Build your next landing page so quickly with Albino.
           </h2>
           <Button
-            onClick={() => console.log("meow")}
+            to="/signup"
             className="px-5 py-3.5 mt-14 text-lg w-[229px] max-md:px-5 max-md:mt-10"
             arrow={true}
           >
