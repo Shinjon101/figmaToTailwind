@@ -5,6 +5,7 @@ import Pricing from "../Components/LandingPageComponents/Pricing";
 import Testimonials from "../Components/LandingPageComponents/Testimonials";
 import FAQ from "../Components/LandingPageComponents/FAQ";
 import NavBar from "../Components/NavBar";
+import Footer from "../Components/Footer";
 
 const LandingPage = () => {
   return (
@@ -16,6 +17,7 @@ const LandingPage = () => {
       <Testimonials />
       <Pricing />
       <FAQ />
+      <Footer />
     </>
   );
 };

@@ -44,9 +44,9 @@ const Features = () => {
       className="bg-white w-full flex justify-center md:pt-30 pt-10 mt-2 pl-4"
     >
       <div className="lg:max-w-[1024px] lg:min-h-[210px] md:flex md:flex-row flex-col">
-        {features.map((feature) => (
+        {features.map((feature, index) => (
           <Feature
-            key={feature.iconPath + feature.title}
+            key={index}
             iconPath={feature.iconPath}
             title={feature.title}
             description={feature.description}

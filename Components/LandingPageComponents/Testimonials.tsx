@@ -55,9 +55,9 @@ const Testimonials = () => {
   return (
     <section id="testimonials" className="bg-white mt-30 scroll-mt-40">
       <div className="flex md:flex-row flex-col justify-center gap-40">
-        {testimonies.map((testimony) => (
+        {testimonies.map((testimony, index) => (
           <TestimonyCard
-            key={testimony.ppPath + testimony.quote}
+            key={index}
             ppPath={testimony.ppPath}
             quote={testimony.quote}
             description={testimony.description}

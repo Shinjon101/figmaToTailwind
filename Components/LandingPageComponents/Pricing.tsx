@@ -38,9 +38,9 @@ const Pricing = () => {
         </p>
       </div>
       <div className="flex flex-col md:flex-row justify-center">
-        {plans.map((plan) => (
+        {plans.map((plan, index) => (
           <PricingCard
-            key={plan.name}
+            key={index}
             name={plan.name}
             description={plan.description}
             price={plan.price}

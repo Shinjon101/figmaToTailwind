@@ -22,7 +22,7 @@ const GetStarted = () => {
         </div>
         <div className="mt-4 pr-5 pb-5 md:pr-0 md:pb-0">
           <img
-            src="../../src/assets/GettingStartedImage.jpg"
+            src="../../assets/GettingStartedImage.jpg"
             className="rounded-lg"
           />
         </div>
