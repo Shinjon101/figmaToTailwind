@@ -11,24 +11,38 @@ View Deployment at ->https://figma-to-tailwind-rosy.vercel.app/
 This project demonstrates the complete process of converting Figma designs into a fully functional, 
 responsive website. Built as a generic SaaS landing page template, it showcases modern web development practices and attention to design details.
 
+
+
 ✨ Features
 🎨 Design & UI
-1.Pixel-perfect conversion from Figma designs
-2.Fully responsive across all device sizes
-3.Modern UI/UX with smooth animations and transitions
-4.Tailwind CSS for consistent, maintainable styling
+
+   1.Pixel-perfect conversion from Figma designs
+   
+   2.Fully responsive across all device sizes
+   
+   3.Modern UI/UX with smooth animations and transitions
+   
+   4.Tailwind CSS for consistent, maintainable styling
+
+   
 
 📱 Pages Included
-1.Landing page
-2.Sign up page
-3.Log in page
 
-Customization
+  1.Landing page
+  
+  2.Sign up page
+  
+  3.Log in page
 
+  
+
+
+Customization ->
 Update content in component files
 Modify colors and styling in tailwind.config.js
 Add your own branding and copy
 Integrate with your preferred backend/CMS
+
 
 
 🤝 Available for Freelance Work
