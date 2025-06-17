@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Footer from "../Components/Footer";
-import SignUpForm from "../Components/SignUpForm";
+import LoginForm from "../Components/LoginForm";
 import { useNavigate } from "react-router-dom";
 
 const SignUpPage = () => {
@@ -15,26 +15,26 @@ const SignUpPage = () => {
         <main className="flex flex-col items-center pt-20 pb-9 w-full font-bold tracking-normal bg-slate-50 max-md:pt-24 max-md:max-w-full">
           <header className="text-center">
             <h1 className="text-6xl tracking-tighter leading-none text-center max-md:text-4xl">
-              Sign up
+              Login
             </h1>
             <p className="mt-9 text-xl leading-loose text-center bg-blend-normal">
-              To get started, you need to sign up here.
+              To get started, you need to sign in here.
             </p>
           </header>
 
-          <SignUpForm />
+          <LoginForm />
 
           <div className="mt-12 text-lg leading-7 text-center max-md:mt-10">
             <span style={{ color: "rgba(22,28,45,1)" }}>
-              Already have an account?{" "}
+              Don't have an account?{" "}
             </span>
             <button
               className="text-indigo-600 hover:text-indigo-700 transition-colors duration-200 cursor-pointer"
               onClick={() => {
-                navigate("/login");
+                navigate("/signup");
               }}
             >
-              Sign in now
+              Create an account
             </button>
           </div>
         </main>

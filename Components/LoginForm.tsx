@@ -2,75 +2,48 @@ import { useState } from "react";
 import toast from "react-hot-toast";
 import FormInput from "./FormInput";
 import Checkbox from "./CheckBox";
-const SignUpForm = () => {
+const LoginForm = () => {
   const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
     email: "",
     password: "",
-    confirmPassword: "",
   });
-  const [agreedToTerms, setAgreedToTerms] = useState(false);
+  const [rememberMe, setRememberMe] = useState(false);
 
   const handleInputChange = (field: string) => (value: string) => {
     setFormData((prev) => ({ ...prev, [field]: value }));
   };
 
   //  Form validation check
+
+  const isValidEmail = (email: string) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
   const isFormValid =
-    formData.firstName.trim() !== "" &&
-    formData.lastName.trim() !== "" &&
     formData.email.trim() !== "" &&
-    formData.password !== "" &&
-    formData.confirmPassword !== "" &&
-    agreedToTerms;
+    formData.password.length > 5 &&
+    isValidEmail(formData.email);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    const { password, confirmPassword } = formData;
-
-    if (password !== confirmPassword) {
-      toast.error("Passwords do not match.");
-      return;
-    }
-
     // Success
-    toast.success("Account created successfully!");
-    console.log("Form submitted:", { ...formData, agreedToTerms });
+    toast.success("Logged in created successfully!");
 
     setFormData({
-      firstName: "",
-      lastName: "",
       email: "",
       password: "",
-      confirmPassword: "",
     });
-    setAgreedToTerms(false);
+    setRememberMe(false);
   };
 
   return (
     <form
       onSubmit={handleSubmit}
       className="flex flex-col px-4 py-5 mt-10 max-w-full text-sm tracking-normal leading-6
-       bg-white rounded-xl border border-gray-200 shadow-xl w-[400px] max-md:px-4 max-md:mt-8"
+       bg-white rounded-xl border border-gray-200 shadow-xl w-[350px] max-md:px-4 max-md:mt-8"
     >
-      <FormInput
-        label="First Name"
-        placeholder="e.g. John"
-        value={formData.firstName}
-        onChange={handleInputChange("firstName")}
-      />
-
-      <div className="mt-5">
-        <FormInput
-          label="Last Name"
-          placeholder="e.g. Doe"
-          value={formData.lastName}
-          onChange={handleInputChange("lastName")}
-        />
-      </div>
-
       <div className="mt-5">
         <FormInput
           label="Email"
@@ -91,20 +64,10 @@ const SignUpForm = () => {
         />
       </div>
 
-      <div className="mt-5">
-        <FormInput
-          label="Confirm Password"
-          placeholder="********"
-          type="password"
-          value={formData.confirmPassword}
-          onChange={handleInputChange("confirmPassword")}
-        />
-      </div>
-
       <Checkbox
-        checked={agreedToTerms}
-        onChange={setAgreedToTerms}
-        label="I agree to the Terms & conditions"
+        checked={rememberMe}
+        onChange={setRememberMe}
+        label="Remember me"
       />
 
       <button
@@ -116,10 +79,10 @@ const SignUpForm = () => {
             : "bg-gray-400 cursor-not-allowed"
         }`}
       >
-        Create an account
+        Sign In
       </button>
     </form>
   );
 };
 
-export default SignUpForm;
+export default LoginForm;
