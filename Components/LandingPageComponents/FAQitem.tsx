@@ -15,7 +15,7 @@ const FAQitem = ({ question, answer }: FAQitemProp) => {
       >
         <img
           className="size-7 rounded-full"
-          src="../../public/assets/icons/qMark.jpg"
+          src="../../assets/icons/qMark.jpg"
         />
         <h1 className="text-white text-xl font-bold leading-loose">
           {question}

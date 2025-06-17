@@ -1,6 +1,6 @@
 const testimonies = [
   {
-    ppPath: "../../public/assets/ProfilePicture/pp1.jpg",
+    ppPath: "../../assets/ProfilePicture/pp1.jpg",
     quote: "You made it so simple",
     description:
       "My new site is so much faster and easier to work with than my old site.",
@@ -8,7 +8,7 @@ const testimonies = [
     position: "Founder at Zenix",
   },
   {
-    ppPath: "../../public/assets/ProfilePicture/pp2.jpg",
+    ppPath: "../../assets/ProfilePicture/pp2.jpg",
     quote: "Simply the best",
     description:
       "Better than all the rest. I’d recommend this product to beginners.",

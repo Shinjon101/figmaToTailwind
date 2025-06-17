@@ -1,18 +1,18 @@
 const features = [
   {
-    iconPath: "../../public/assets/icons/code.jpg",
+    iconPath: "../../assets/icons/code.jpg",
     title: "Project management",
     description:
       "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
   },
   {
-    iconPath: "../../public/assets/icons/countdown-2.jpg",
+    iconPath: "../../assets/icons/countdown-2.jpg",
     title: "Time tracking",
     description:
       "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
   },
   {
-    iconPath: "../../public/assets/icons/smartphone.jpg",
+    iconPath: "../../assets/icons/smartphone.jpg",
     title: "Beautiful mobile app",
     description:
       "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
