@@ -4,8 +4,7 @@ frontend development skills and design-to-code conversion expertise.
 
 🎨Design -> https://www.figma.com/design/GViT40hel82NbYQYeatNKD/Saas-Subscription?node-id=0-1&t=ic8xVyWzXmKxRU9U-1
 
-🚀 Deployment
-View Deployment at ->https://figma-to-tailwind-rosy.vercel.app/
+🚀 View Deployment at ->https://figma-to-tailwind-rosy.vercel.app/
 
 📋 Project Overview
 This project demonstrates the complete process of converting Figma designs into a fully functional, 
