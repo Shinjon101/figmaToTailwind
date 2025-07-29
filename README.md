@@ -1,64 +1,71 @@
-Figma to Tailwind - SaaS Landing Page
-A pixel-perfect, responsive SaaS landing page built from Figma designs, showcasing professional 
-frontend development skills and design-to-code conversion expertise.
+# SaaS Landing Page – Figma to Tailwind Conversion
 
-🎨Design -> https://www.figma.com/design/GViT40hel82NbYQYeatNKD/Saas-Subscription?node-id=0-1&t=ic8xVyWzXmKxRU9U-1
+A pixel-perfect, fully responsive SaaS landing page built by converting a Figma design into code using Tailwind CSS. This project demonstrates strong frontend development skills and meticulous design-to-code implementation.
+🎨 Figma Design
 
-🚀 View Deployment at ->https://figma-to-tailwind-rosy.vercel.app/
+Figma Link → https://www.figma.com/design/GViT40hel82NbYQYeatNKD/Saas-Subscription?node-id=0-1&t=ic8xVyWzXmKxRU9U-1
+ 
 
-📋 Project Overview
-This project demonstrates the complete process of converting Figma designs into a fully functional, 
-responsive website. Built as a generic SaaS landing page template, it showcases modern web development practices and attention to design details.
+View Deployment →
+https://figma-to-tailwind-rosy.vercel.app/
 
-
-
+This project showcases the full process of transforming a static Figma design into a modern, production-ready SaaS landing page using Tailwind CSS and best practices in responsive development.
 ✨ Features
 🎨 Design & UI
 
-   1.Pixel-perfect conversion from Figma designs
-   
-   2.Fully responsive across all device sizes
-   
-   3.Modern UI/UX with smooth animations and transitions
-   
-   4.Tailwind CSS for consistent, maintainable styling
+    Pixel-perfect Figma to code conversion
 
-   
+    Fully responsive – mobile, tablet, desktop
+
+    Smooth animations and transitions
+
+    Built with Tailwind CSS for utility-first, maintainable styling
 
 📱 Pages Included
 
-  1.Landing page
-  
-  2.Sign up page
-  
-  3.Log in page
+    ✅ Landing Page
 
-  
+    ✅ Sign Up Page
 
+    ✅ Log In Page
 
-Customization ->
-Update content in component files
-Modify colors and styling in tailwind.config.js
-Add your own branding and copy
-Integrate with your preferred backend/CMS
+🛠️ Customization
 
+You can easily modify and extend this template:
 
+    🔧 Update content in component files
 
-🤝 Available for Freelance Work
-Looking for similar conversions? I specialize in:
+    🎨 Adjust colors and fonts via tailwind.config.js
 
-🎨 Figma to React/Next.js conversion
-📱 Responsive web development
-⚡ Performance optimization
-🎯 Landing page development
-🛠️ Custom component libraries
+    🔁 Replace branding and copy with your own
 
-Why Choose Me?
+    🧩 Integrate with your backend or CMS of choice
 
-Pixel-perfect design implementation
-Clean, maintainable code
-Fast turnaround times
-Responsive design expertise
-Modern tech stack proficiency
+🤝 Freelance Availability
 
-Get in touch: toshinjonc2006@gmail.com
+I’m available for freelance work! I specialize in:
+
+    🔹 Figma to React/Next.js conversions
+
+    🔹 Responsive web development
+
+    🔹 Landing page design & development
+
+    🔹 Custom component libraries
+
+    🔹 Performance optimization
+
+💼 Why Work With Me?
+
+    🎯 Pixel-perfect design implementation
+
+    ✨ Clean, maintainable, and scalable code
+
+    ⚡ Fast turnaround times
+
+    📱 Expert in responsive and modern UI/UX
+
+    🧰 Proficient with today’s top frontend tech
+
+📬 Get in touch
+toshinjonc2006@gmail.com
